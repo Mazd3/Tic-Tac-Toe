@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.app {
+    background: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.turn {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.mark {
+    height: 100%;
+    width: 32%;
+    background-color: #333;
+    border-radius: 15px;
+    text-align: right;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}
+
+.counter {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mark img {
+    height: 50%;
+}
+
+.mark_active {
+    background-color: rgb(29, 179, 91);
+}
+
+.mark_button {
+    justify-content: center;
+}
+
+.mark_button:hover {
+    background-color: rgb(29, 179, 91);
+}
+
+.game {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #333;
+}
+
+.game div {
+    background-color: #fff;
+    width: 32%;
+    height: 32%;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.xMark {
+    background-image: url(img/x_b.svg);
+}
+
+.oMark {
+    background-image: url(img/o_b.svg);
+}
+
+
